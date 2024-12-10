@@ -1,0 +1,120 @@
+
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0e3; /* Pastel cream background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333; /* Dark gray for text contrast */
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+    color: #5a5a5a; /* Soft gray for text */
+  }
+  
+  p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 10px 0;
+    color: #7a7a7a; /* Slightly lighter gray */
+  }
+  
+  /* Main Wrapper */
+  .main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e4f0f5; /* Soft pastel blue */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    width:50vw;
+    height:50vh;
+  }
+  
+  /* Wrapper */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Button */
+  button {
+    background-color: #ffd1dc; /* Pastel pink */
+    color: #333; /* Dark text for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #ffc1cc; /* Slightly darker pastel pink */
+    transform: scale(1.05);
+  }
+  
+  /* File Input */
+  input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+    }
+  
+    input[type="file"] {
+      max-width: 100%;
+    }
+  }
+  
